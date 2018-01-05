@@ -1,0 +1,21 @@
+/* Your custom styles */
+.form-control {
+	font-size: 18px !important;
+}
+.form-group.label-floating .input-group {
+	margin-bottom: 0px;
+}
+.form-group.label-floating .input-group.md-form .control-label:not(.active) {
+	margin-left: 38px;
+}
+.form-group.label-floating .input-group.md-form .control-label.active {
+	margin-left: 0px;
+}
+
+.form-group.label-floating .input-group.md-form {
+	padding-left: 0; 
+}
+
+.form-control, .form-group .form-control {
+	background-position: center bottom,center calc(100% - 0px);
+}
