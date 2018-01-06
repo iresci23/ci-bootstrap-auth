@@ -19,3 +19,7 @@
 .form-control, .form-group .form-control {
 	background-position: center bottom,center calc(100% - 0px);
 }
+
+.table tr td, .table tr th {
+	font-size: 14px;
+}

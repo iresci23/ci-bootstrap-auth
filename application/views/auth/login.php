@@ -14,7 +14,7 @@
         <h2 class="text-center no-m pt-4 pb-4 color-white index-1">Login Form</h2>
       </div>
 
-      <ul class="nav nav-tabs nav-tabs-3 nav-justified nav-tabs-transparent indicator-primary" role="tablist">
+      <ul class="nav nav-tabs nav-tabs-full nav-tabs-3 nav-tabs-transparent indicator-primary" role="tablist">
         <li class="nav-item current">
           <a class="nav-link <?= $tab == 'login' ? 'active' : '' ?>" 
           data-toggle="tab" href="#loginTab" role="tab" 
