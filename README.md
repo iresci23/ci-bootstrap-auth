@@ -9,7 +9,7 @@
 
 ### Installation
 
-1. Download/clone this repo and unzip to your web server
+1. Download/clone this repo
 
 2. Run composer to install dependencies
 ```
@@ -22,8 +22,13 @@ $ composer install
 application/sql/ion_auth.sql
 ```
 
-4. Adjust application/config/database.php with your DB connection string and application/config/config.php if you wish to change the base_url
+4. Adjust your settings
+* DB: `application/config/database.php`
+* Config: `application/config/config.php` if you wish to change the base_url
 * Set your app environment at public/index.php
+```
+define('ENVIRONMENT', 'development'); 
+```
 
 5. Test login:
 ```
