@@ -1,3 +1,6 @@
+## Demo
+[Demo in Heroku](http://ci3-bs4-auth.herokuapp.com/auth/login)
+
 ## Requirements
 
 * PHP 5.6 or later
@@ -6,9 +9,9 @@
 
 ### Installation
 
-1. Download and unzip to your web server
+1. Download/clone this repo and unzip to your web server
 
-2. Run composer install to download dependencies
+2. Run composer to install dependencies
 ```
 $ composer install
 ```
@@ -18,16 +21,18 @@ $ composer install
 ```
 application/sql/ion_auth.sql
 ```
-Adjust application/config/database.php with your DB connection string
 
-4. Test login:
+4. Adjust application/config/database.php with your DB connection string and application/config/config.php if you wish to change the base_url
+* Set your app environment at public/index.php
+
+5. Test login:
 ```
 u: admin@admin.com
 p: password
 
 ```
 
-
+That's it
 
 #### Third Party Libraries I used in this project
 
