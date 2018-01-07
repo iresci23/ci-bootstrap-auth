@@ -39,7 +39,9 @@ p: password
 
 That's it
 
-#### Third Party Libraries I used in this project
+#### Libraries I used in this project
+
+[CodeIgniter Composer Installer](https://github.com/kenjis/codeigniter-composer-installer)
 
 [Ion Auth](https://github.com/benedmunds/CodeIgniter-Ion-Auth)
 
